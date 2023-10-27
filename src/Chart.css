@@ -1,0 +1,23 @@
+/* ChartComponent.css */
+.chart-container {
+  width: 80%;
+  max-width: 800px; /* Limit the maximum width for better readability */
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  padding: 20px;
+}
+
+/* Chart title style */
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Chart label style */
+.chart-label {
+  font-weight: bold;
+}
+
+/* Additional chart styles */
