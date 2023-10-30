@@ -1,0 +1,12 @@
+.search-input-container {
+  height: 50%;
+  width: 100%;
+  border: 0px solid;
+  text-align: center;
+}
+
+.search-input {
+  width: 90%;
+  height: 100%;
+  border: 0px solid;
+}

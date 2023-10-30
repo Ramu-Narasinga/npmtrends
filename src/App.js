@@ -30,25 +30,33 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <>
       <header className="app-header">NPM Trends Tool</header>
-      <div className="search-bar">
-        <SearchBar onSearch={handleSearch} />
+
+      <div className="search-section">
+        <div className="search-bar">
+          <SearchBar onSearch={handleSearch} />
+        </div>
       </div>
-      {packageData && (
-        <div className="package-card">
-          <PackageCard
-            packageName={packageData.package}
-            downloadData={packageData.downloads}
-          />
-        </div>
-      )}
-      {chartData && (
-        <div className="chart">
-          <ChartComponent chartData={chartData} />
-        </div>
-      )}
-    </div>
+
+      <div className="app-container">
+        
+        
+        {packageData && (
+          <div className="package-card">
+            <PackageCard
+              packageName={packageData.package}
+              downloadData={packageData.downloads}
+            />
+          </div>
+        )}
+        {chartData && (
+          <div className="chart">
+            <ChartComponent chartData={chartData} />
+          </div>
+        )}
+      </div>
+    </>
   );
 }
 

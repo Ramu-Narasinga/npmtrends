@@ -1,11 +1,21 @@
 /* styles.css */
 
 /* Global styles */
+html {
+  height: 100%;
+  width: 100%;
+  background: #dddddd21;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+}
+
+.search-section {
+  
 }
 
 /* Container for the entire app */
@@ -28,8 +38,13 @@ body {
 
 /* Search bar styles */
 .search-bar {
-  text-align: center;
-  margin: 20px 0;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin: 2rem 8rem;
+  border-radius: 1rem;
 }
 
 /* Package card styles */
